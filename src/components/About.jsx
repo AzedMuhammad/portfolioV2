@@ -1,8 +1,11 @@
 const About = () => {
   return (
     <>
-      <div className="flex w-full h-screen bg-darkBlue">
-        <div className="container flex flex-col min-w-full my-auto space-y-8 text-white ">
+      <div
+        className="flex flex-row justify-around w-full h-screen mx-auto bg-darkBlue"
+        id="About"
+      >
+        <div className="flex flex-col w-full max-w-2xl my-auto space-y-8 text-white">
           <h1 className="text-3xl font-bold text-center font-customfont">
             About
           </h1>
@@ -17,6 +20,21 @@ const About = () => {
             my technical skills, gain exposure to industry best practices, and
             make meaningful contributions to projects.
           </p>
+        </div>
+        <div className="flex flex-col w-full max-w-2xl my-auto space-y-8 text-white font-Inter">
+          <h1 className="text-3xl font-bold text-center font-customfont">
+            Education
+          </h1>
+          <div>
+            <h2 className="text-xl font-semibold">SMA Bina Insani</h2>
+            <p className="text-gray-300">2017 - 2020</p>
+          </div>
+          <div>
+            <h2 className="text-xl font-semibold">
+              Universitas Muhammadiyah Tangerang
+            </h2>
+            <p className="text-gray-300">2022 - Now</p>
+          </div>
         </div>
       </div>
     </>

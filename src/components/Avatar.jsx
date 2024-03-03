@@ -1,7 +1,7 @@
 const Avatar = () => {
   return (
     <>
-      <div className="flex flex-col h-screen bg-darkBlue">
+      <div className="flex flex-col h-screen bg-darkBlue" id="Home">
         <img
           src="../src/assets/coding.png"
           alt="coding"
@@ -18,7 +18,7 @@ const Avatar = () => {
             Azed Muhammad Noval
           </h1>
           <p className="text-lg text-center text-white font-Inter">
-            Frontend Developer | Football Enthusiast | Gamer
+            Website Dev | Football Enthusiast | Gamer
           </p>
 
           <div className="flex flex-row justify-center pt-10 mx-auto space-x-20">
